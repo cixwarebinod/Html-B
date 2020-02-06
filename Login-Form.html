@@ -1,2 +1,73 @@
 <html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <form action="login.php" method="post">
+            <table>  
+                <tr>
+                    <td>
+                        <label for="Name">Full Name</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your name" id="Name">
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="e.g jdoe@gmail.com" id="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="subject">Subject</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Subject" value="Html" checked> Html
+                        <input type="checkbox" name="subject" value="css"> css 
+                        <input type="checkbox" name="subject" value="css"> Javascript
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male" checked>male
+                        <input type="radio" name="gender" value="female"> female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> I want to be</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="UI degree"> U.I degree</option>
+                            <option value="Frontend developer">Frontend developer</option>
+                            <option value="Backend developer"> Backend developer</option>
+                            <option value="Mobile developer">Mobile developer</option>
+                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="register">
+                        <Input type="reset" value="cancel">
+                    </td>
+            </table> 
+        </form>
+    </body>
 </html>
